@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header,
+.divider {
+    position: relative;
+}
+
+.header::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 84px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, black, transparent);
+}
+
+.divider::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d7d7d7;
+}
+
+@media (min-width: 768px) {
+    .header::after {
+        height: 140px;
+        background: linear-gradient(to bottom, hsl(0 0% 0% / 0.6), transparent);
+    }
+
+    .divider::after {
+        width: 1px;
+        height: 64px;
+        top: 50%;
+        right: 0;
+        bottom: auto;
+        left: auto;
+        transform: translateY(-50%);
+    }
+}
+
+.cross,
+.open .burger {
+    display: none;
+}
+
+.open .cross {
+    display: block;
+}
