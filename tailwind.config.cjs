@@ -17,6 +17,9 @@ module.exports = {
       boxShadow: {
         'sm': '0 0 0 1px #d7d7d7',
         'md': '0 0 0 2px #d7d7d7',
+      },
+      lineHeight: {
+        'loose': '1.875',
       }
     }
   },

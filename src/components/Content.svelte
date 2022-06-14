@@ -63,12 +63,12 @@
             </div>
         </div>
 
-        <div class="bg-white px-6 pt-10 pb-10 rounded-lg border border-[#f2f2f2]">
-            <h2 class="font-bold leading-tight text-lg mb-6">About this project</h2>
+        <div class="bg-white px-6 pt-10 pb-10 md:p-12 rounded-lg border border-[#f2f2f2]">
+            <h2 class="font-bold leading-tight text-lg mb-6 md:text-xl md:-mt-1 md:mb-8">About this project</h2>
 
-            <p class="leading-relaxed text-sm text-dark-grey mb-6">The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve your posture and make you more comfortable while at work, helping you stay focused on the task at hand.</p>
+            <p class="leading-relaxed text-sm text-dark-grey mb-6 md:mb-8 md:leading-loose md:text-base">The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve your posture and make you more comfortable while at work, helping you stay focused on the task at hand.</p>
 
-            <p class="leading-relaxed text-sm text-dark-grey mb-6">Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer to allow notepads, pens, and USB sticks to be stored under the stand.</p>
+            <p class="leading-relaxed text-sm text-dark-grey mb-6 md:mb-10 md:leading-loose md:text-base">Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer to allow notepads, pens, and USB sticks to be stored under the stand.</p>
 
             <PledgeList />
         </div>
